@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Amateur</title>
+</head>
+<body>
+  <div class="top-bar">
+    <p>COMPLIMENTARY WORLDWIDE INSURED DELIVERY ON ORDERS OVER $500 | EXPRESS SHIPPING</p>
+  </div>
+
+  <header class="navbar">
+    <div class="nav-left">
+      <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i> SEARCH</button>
+    </div>
+
+    <div class="nav-center">
+      <a href="#" class="logo">LI VEBLALL</a>
+      <span class="tagline">HAUTE JOAILLERIE</span>
+    </div>
+
+    <div class="nav-right">
+      <a href="#"><i class="fa-regular fa-user"></i></a>
+      <a href="#"><i class="fa-regular fa-heart"></i></a>
+      <a href="#" class="cart-icon"><i class="fa-solid fa-bag-shopping"></i> <span id="cart-count">0</span></a>
+    </div>
+  </header>
+
+  <nav class="nav-links">
+    <a href="#shop-all">SHOP ALL</a>
+    <a href="#jewelry">JEWELRY</a>
+    <a href="#collections">COLLECTION</a>
+    <a href="#wholesale">WHOLESALE</a>
+    <a href="#services">SERVICES</a>
+    <a href="#about-us">ABOUT US</a>
+  </nav>
+
+  <section class="hero-section" id="shop-all">
+    
+    <div class="hero-header">
+      <h1 class="hero-title">amateur</h1>
+      <p class="hero-subtitle">
+        Our new collection is a tailored story designed with craft & artistry. High-end<br>
+        pieces crafted to inspire elegance and timeless prestige for every moment.
+      </p>
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-primary">SHOP NOW</a>
+        <a href="#" class="btn btn-secondary">LEARN MORE</a>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      
+      <div class="products-preview">
+        <div class="preview-header">
+          <h3>Products</h3>
+          <div class="carousel-arrows">
+            <button id="prevBtn">&lt;</button>
+            <button id="nextBtn">&gt;</button>
+          </div>
+        </div>
+        
+        <div class="thumbnail-list">
+          <div class="thumb-card">
+            <img src="pic-1.avif" alt="Product 1">
+          </div>
+          <div class="thumb-card">
+            <img src="pic-2.avif" alt="Product 2">
+          </div>
+          <div class="thumb-card">
+            <img src="pic-3.avif" alt="Product 3">
+          </div>
+        </div>
+        
+        <p class="preview-text">
+          From intricate rings to luxury necklaces, discover the precision, memory and style crafting in store.
+        </p>
+      </div>
+
+      <div class="hero-banner">
+        <img src="pic-4.avif" alt="Hero Model">
+        <button class="scroll-down-btn" id="scrollBtn">
+          <i class="fa-solid fa-arrow-down"></i>
+        </button>
+      </div>
+
+    </div>
+
+  </section>
+
+<section class="best-selling-section" id="jewelry">
+  
+  <div class="section-header">
+    <div class="header-left">
+      <h2 class="section-title">Best Selling Products</h2>
+      <p class="section-subtitle">
+        Elevate your style with our top-selling jewelry collection. Timeless<br>
+        designs, premium quality, and sustainable craftsmanship.
+      </p>
+    </div>
+    <div class="header-right">
+      <a href="#" class="view-all-btn">VIEW ALL COLLECTION &rarr;</a>
+    </div>
+  </div>
+
+  <div class="products-grid">
+
+    <div class="product-card">
+      <div class="card-image-box">
+        <img src="pic-3.avif" alt="Happy Diamond Ring">
+        <button class="wishlist-btn" aria-label="Add to Wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+      </div>
+      <div class="card-details">
+        <span class="product-tag">BESTSELLER</span>
+        <h3 class="product-title">HAPPY DIAMOND RING</h3>
+        <p class="product-desc">18k White Gold Diamond Solitaire</p>
+        <div class="card-footer">
+          <span class="product-price">$1820.00</span>
+          <button class="add-to-bag-btn">ADD TO BAG</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-image-box">
+        <img src="pic-1.avif" alt="Happy Diamond Ring">
+        <button class="wishlist-btn" aria-label="Add to Wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+      </div>
+      <div class="card-details">
+        <span class="product-tag">NEW</span>
+        <h3 class="product-title">HAPPY DIAMOND RING</h3>
+        <p class="product-desc">18k Yellow Gold Brilliant Cut</p>
+        <div class="card-footer">
+          <span class="product-price">$1450.00</span>
+          <button class="add-to-bag-btn">ADD TO BAG</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-image-box">
+        <img src="pic-2.avif" alt="Happy Diamond Ring">
+        <button class="wishlist-btn" aria-label="Add to Wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+      </div>
+      <div class="card-details">
+        <span class="product-tag">POPULAR</span>
+        <h3 class="product-title">HAPPY DIAMOND RING</h3>
+        <p class="product-desc">18k White Gold Pendant</p>
+        <div class="card-footer">
+          <span class="product-price">$1620.00</span>
+          <button class="add-to-bag-btn">ADD TO BAG</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-image-box">
+        <img src="pic-5.avif" alt="Happy Gold Ring">
+        <button class="wishlist-btn" aria-label="Add to Wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+      </div>
+      <div class="card-details">
+        <span class="product-tag">LIMITED</span>
+        <h3 class="product-title">HAPPY GOLD RING</h3>
+        <p class="product-desc">Rose Gold Signature Band</p>
+        <div class="card-footer">
+          <span class="product-price">$1280.00</span>
+          <button class="add-to-bag-btn">ADD TO BAG</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="explore-section" id="collections">
+  <div class="explore-container">
+    
+    <div class="explore-header">
+      <div class="header-left">
+        <h2 class="explore-title">Exploring Li Veblall Creation</h2>
+        <p class="explore-subtitle">
+          Explore signature designs crafted with passion and premium materials. Treasures made to be cherished for generations.
+        </p>
+      </div>
+      <a href="#" class="view-all-link">VIEW ALL COLLECTION &rarr;</a>
+    </div>
+
+    <div class="category-grid">
+      
+      <div class="cat-card">
+        <img src="pic-6.avif" alt="Watches" class="cat-img">
+        <div class="cat-overlay">
+          <span class="cat-tag">TIMEPIECES</span>
+          <h3 class="cat-title">WATCHES</h3>
+          <a href="#" class="cat-btn">EXPLORE</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <img src="pic-5.avif" alt="Jewelry" class="cat-img">
+        <div class="cat-overlay">
+          <span class="cat-tag">DIAMONDS & GOLD</span>
+          <h3 class="cat-title">JEWELRY</h3>
+          <a href="#" class="cat-btn">EXPLORE</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <img src="pic-7.avif" alt="Accessories" class="cat-img">
+        <div class="cat-overlay">
+          <span class="cat-tag">HANDCRAFTED</span>
+          <h3 class="cat-title">ACCESSORIES</h3>
+          <a href="#" class="cat-btn">EXPLORE</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <img src="pic-8.avif" alt="Jewelry Dress" class="cat-img">
+        <div class="cat-overlay">
+          <span class="cat-tag">HAUTE COUTURE</span>
+          <h3 class="cat-title">JEWELRY DRESS</h3>
+          <a href="#" class="cat-btn">LOOKBOOK</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="craftsmanship-section" id="craftsmanship">
+  <div class="craftsmanship-container">
+    
+    <div class="craftsmanship-content">
+      <h2 class="craftsmanship-title">Timeless Craftsmanship</h2>
+      
+      <p class="craftsmanship-desc">
+        Every piece we create is a testament of passion and precision. We combine artisan handcrafting with ethically sourced materials to design fine jewelry intended for life's most meaningful moments. From custom engagement pieces to daily luxury, our focus on delivering elegance that lasts forever.
+      </p>
+
+      <div class="craftsmanship-stat">
+        <span class="stat-number">15+</span>
+        <div class="stat-text">
+          <strong>YEARS OF EXPERIENCE</strong>
+          <p>Dedicated to perfection & heritage craftsmanship</p>
+        </div>
+      </div>
+
+      <a href="#" class="btn-story">SEE OUR STORY</a>
+    </div>
+
+    <div class="craftsmanship-media">
+      <img src="pic-9.svg" alt="Jewelry Craftsmanship" class="craft-img">
+      <div class="image-overlay-text">Craftsmanship</div>
+    </div>
+
+  </div>
+</section>
+
+<section class="sustainability-section" id="sustainability">
+  <div class="sustainability-overlay">
+    <div class="sustainability-content">
+      
+      <span class="sustainability-tagline">RING FOR UNIQUE & UNLIMITED STATEMENT RING</span>
+      
+      <h2 class="sustainability-headline">
+        Fostering Water Sustainability<br>While Celebrating Global Beauty.
+      </h2>
+    
+      <a href="#" class="btn-sustainability-details">VIEW DETAILS</a>
+      
+    </div>
+  </div>
+</section>
+
+<section class="testimonials-section" id="about-us">
+  <div class="testimonials-container">
+    
+    <div class="testimonials-header">
+      <h2 class="testimonials-title">What disaster survivors say about us</h2>
+      <p class="testimonials-subtitle">
+        Discover why our clients trust us for heirloom quality, exceptional service, and jewelry designed to celebrate every milestone.
+      </p>
+    </div>
+
+    <div class="testimonials-grid">
+      
+      <div class="testimonial-card">
+        <div class="quote-mark">“</div>
+        <p class="testimonial-quote">
+          "I was genuinely impressed by the quality and attention to detail. The jewelry looks even more beautiful in person, with a flawless finish and timeless design. It has quickly become one of my favorite pieces to wear."
+        </p>
+        <div class="client-profile">
+          <img src="pic-4.avif" alt="Jane Ortiz" class="client-avatar">
+          <div class="client-info">
+            <h4 class="client-name">JANE ORTIZ</h4>
+            <span class="client-role">Fashion Designer</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="quote-mark">“</div>
+        <p class="testimonial-quote">
+          "From the elegant packaging to the exceptional craftsmanship, every detail exceeded my expectations. The piece feels luxurious, comfortable, and perfect for both everyday wear and special occasions."
+        </p>
+        <div class="client-profile">
+          <img src="pic-11.avif" alt="Sophia Bennett" class="client-avatar">
+          <div class="client-info">
+            <h4 class="client-name">SOPHIA BENNETT</h4>
+            <span class="client-role">CEO Luxury Studio</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="quote-mark">“</div>
+        <p class="testimonial-quote">
+          "This was one of the best online shopping experiences I've had. The jewelry arrived beautifully presented, and the quality is outstanding. I've received so many compliments and will definitely purchase again!"
+        </p>
+        <div class="client-profile">
+          <img src="pic-12.avif" alt="Olivia Mitchell" class="client-avatar">
+          <div class="client-info">
+            <h4 class="client-name">OLIVIA MITCHELL</h4>
+            <span class="client-role">Art Director</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="faq-section" id="faq">
+  <div class="faq-container">
+    
+    <div class="faq-left">
+      <h2 class="faq-title">Frequently Asked Questions</h2>
+      <p class="faq-subtitle">
+        Explore helpful information about our collections, craftsmanship, shipping, and services all in one place.
+      </p>
+
+      <div class="faq-search-box">
+        <input type="text" placeholder="Search for answers..." class="faq-input">
+        <button class="faq-search-btn">SEARCH</button>
+      </div>
+
+      <div class="faq-accordion">
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What materials are used in your jewelry?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We utilize 100% recycled 18k solid gold, ethically sourced conflict-free diamonds, and natural gemstones. Every order comes with a certificate of authenticity.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you offer custom jewelry design?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, our master jewelers work directly with clients to craft bespoke engagement rings and high-jewelry pieces. Contact our concierge to get started.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How long does custom jewelry take?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Custom pieces typically take between 3 to 5 weeks from initial CAD design approval to final hand-polishing and delivery.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you provide certificates for gemstones?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. All our diamonds over 0.5 carats come certified by top independent gemological labs such as GIA or IGI.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What is your return and exchange policy?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We offer a complimentary 30-day money-back return policy for unworn standard collection items in original packaging.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="faq-right">
+      <div class="faq-media-card">
+        <img src="pic-2.avif" alt="Heritage Jewelry Box" class="faq-card-img">
+        <div class="faq-card-overlay">
+          <h3 class="faq-card-title">Heritage Jewelry Box</h3>
+          <p class="faq-card-sub">Hand-crafted velvet interior</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="giveaway-section" id="services">
+  <div class="giveaway-banner-card">
+    
+    <div class="giveaway-info">
+      <div class="giveaway-img-box">
+        <img src="pic-1.avif" alt="Diamond Necklace Preview" class="giveaway-thumb">
+      </div>
+      
+      <div class="giveaway-text">
+        <span class="giveaway-badge">EXCLUSIVE EVENT</span>
+        <h2 class="giveaway-title">
+          The Ultimate Diamond <span class="gold-italic">Giveaway</span>
+        </h2>
+        <p class="giveaway-subtext">
+          Join our luxury club & win 1.5 Carat Cut Diamond Studs + $2,000 Surprise Jewelry Voucher for top entries.
+        </p>
+      </div>
+    </div>
+
+    <div class="giveaway-action">
+      <form class="giveaway-form" onsubmit="event.preventDefault();">
+        <input type="email" placeholder="Enter your email address..." class="giveaway-input" required>
+        <button type="submit" class="giveaway-btn">ENTER TO WIN</button>
+      </form>
+      <span class="giveaway-disclaimer">*No purchase necessary. Winners announced monthly.</span>
+    </div>
+
+  </div>
+</section>
+
+<section class="advantages-section" id="wholesale">
+  <div class="advantages-container">
+
+    <h2 class="advantages-title">Online Store Advantages</h2>
+
+    <div class="advantages-grid">
+ 
+      <div class="advantage-card">
+        <div class="advantage-icon-box">
+          <i class="fa-solid fa-truck-fast"></i>
+        </div>
+        <h4 class="advantage-heading">EXPRESS DELIVERY</h4>
+        <p class="advantage-desc">
+          Free insured courier shipping on all orders over $500
+        </p>
+      </div>
+
+      <div class="advantage-card">
+        <div class="advantage-icon-box">
+          <i class="fa-solid fa-rotate-left"></i>
+        </div>
+        <h4 class="advantage-heading">SATISFACTION GUARANTEE</h4>
+        <p class="advantage-desc">
+          30-day hassle-free money-back return policy
+        </p>
+      </div>
+
+      <div class="advantage-card">
+        <div class="advantage-icon-box">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <h4 class="advantage-heading">AUTHENTIC CERTIFICATE</h4>
+        <p class="advantage-desc">
+          Certified genuine diamonds & hallmarked 18k gold
+        </p>
+      </div>
+
+      <div class="advantage-card">
+        <div class="advantage-icon-box">
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <h4 class="advantage-heading">PROTECTED PAYMENT</h4>
+        <p class="advantage-desc">
+          Encrypted SSL checkout with secure global cards
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer" id="footer">
+  <div class="footer-container">
+    
+    <div class="footer-grid">
+ 
+      <div class="footer-col brand-col">
+        <h3 class="footer-brand-title">LI VEBLALL</h3>
+        <p class="footer-brand-desc">
+          Creating timeless luxury jewelry that inspires confidence, celebrates life's finest milestones, and advocates ethical diamond sourcing worldwide.
+        </p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">CUSTOMER SERVICE</h4>
+        <ul class="footer-links">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Delivery & Returns</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Ring Size Guide</a></li>
+          <li><a href="#">Li Veblall Warranty</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">SHOP</h4>
+        <ul class="footer-links">
+          <li><a href="#">Fine Jewelry</a></li>
+          <li><a href="#">Engagement Rings</a></li>
+          <li><a href="#">Luxury Watches</a></li>
+          <li><a href="#">High Accessories</a></li>
+          <li><a href="#">New Arrivals</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col newsletter-col">
+        <h4 class="footer-heading">NEWS</h4>
+        <p class="newsletter-desc">
+          Subscribe to our newsletter for private previews.
+        </p>
+        <form class="footer-newsletter-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="Your email..." class="footer-email-input" required>
+          <button type="submit" class="footer-subscribe-btn">SUBSCRIBE</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="legal-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Cookie Settings</a>
+        <a href="#">Site Map</a>
+      </div>
+      <p class="copyright-text">&copy; 2026 LI VEBLALL. All rights reserved.</p>
+    </div>
+
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
